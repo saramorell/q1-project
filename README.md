@@ -13,6 +13,7 @@ https://trello.com/b/kgiMs9vJ/q1-project
 <a href="https://github.com/saramorell/q1-project/blob/master/sara_morell_q1_wireframes.pdf">Wireframes</a>  
 
 # style guide
-<img src=
+<img src="/q1-project/q1-styleguide-01.png">
+      
 
 
