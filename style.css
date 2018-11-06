@@ -1,0 +1,169 @@
+html{
+    height:100%
+}
+
+body {
+}
+
+/* main landing page grid */
+
+.wrapper > div {
+  background:#fff;
+  padding: 1em;
+}
+.wrapper p {
+  display:none;
+}
+
+.wrapper {
+  background-image: url(./images/sheep.jpg);
+  display:grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap:0;
+  height: 100vh;
+}
+
+.wrapper >div:nth-child(n+37):nth-child(-n+39){
+background-color: rgb(216, 218, 0, .5)
+}
+.wrapper >div:nth-child(n+26):nth-child(-n+28){
+background: none;
+}
+.wrapper >div:nth-child(n+10):nth-child(-n+12){
+background: none;
+}
+.wrapper >div:nth-child(41){
+background: none;
+}
+.wrapper >div:nth-child(48){
+background: none;
+}
+
+.wrapper >div:nth-child(35){
+background: none;
+}
+.wrapper >div:nth-child(23){
+background: none;
+}
+.wrapper >div:nth-child(16){
+background: none;
+}
+.wrapper >div:nth-child(5){
+background: none;
+}
+.wrapper >div:nth-child(15){
+background: none;
+}
+.wrapper >div:nth-child(32){
+background-color: rgb(216, 218, 0, .5)
+}
+
+
+
+
+
+
+
+/* gallery/ work section */
+
+section.gallery{
+  /* height: 100vh; */
+  background-color: #eff7f6;
+}
+.gallery-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.grid-item {
+  width: 29vw;
+}
+
+/* about section */
+section.about {
+  height: 100vh;
+  background-color: #eff7f6;
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 55% 15% 30% ;
+  padding-top:30vh;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+div.about-wrapper h1{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  font-size: 4em;
+  /* justify-self:center; */
+}
+
+
+
+/* contact section */
+section.contact {
+  height: 100vh;
+  background-color: #fff;
+}
+
+/* .saveContact {
+  padding:2em;
+} */
+
+
+/* div.form-wrapper h1{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  font-size: 5em;
+} */
+
+div.contact-wrapper h1{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  font-size: 4em;
+  /* justify-self:center; */
+}
+
+.contact-wrapper{
+  display: grid;
+  grid-template-columns: 15% 30% 55%;
+  grid-template-rows: 50vh;
+  padding-top:30vh;
+}
+
+div.form-group.form-confirm {
+  justify-self:center;
+  padding-top: 4em;
+}
+
+
+
+ /* .wrapper >div:nth-child(odd){
+   background: #ddd;
+ } */
+
+
+/*
+
+.one {
+  background: blue;
+}
+
+.two {
+  background-color: pink;
+}
+
+.three {
+  background-color: green;
+}
+
+.four {
+  background-color: orange;
+} */
