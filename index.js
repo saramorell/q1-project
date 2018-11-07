@@ -1,18 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-//
-// var elem = document.querySelector('.gallery-wrap');
-// var msnry = new Masonry( elem, {
-//   // options
-//   itemSelector: '.grid-item'
-//
-//   })
-//
-// document.on('click','[data-toggle="lightbox"]', function(event){
-//   event.preventDefault()
-//   this.ekkoLightbox()
-//
-// })
-
 
 
 //contact form submission action
@@ -25,7 +11,7 @@ localStorage.setItem("name", nameInput.value)
 function thankYou (){
   let formConfirm = document.querySelector(".form-confirm")
   let savedName = localStorage.getItem("name")
-  formConfirm.innerHTML= '<h3>' + 'Thanks'+ '</h3>' + '<br>' + '<h2>' + savedName + '!'+'</h2>'
+  formConfirm.innerHTML= '<h3>' + 'Thank you'+ '</h3>' + ' ' + '<h2>' + savedName + '!'+'</h2>'
 }
 
 document.querySelector(".saveContact").addEventListener('submit', function (event) {
@@ -38,17 +24,4 @@ document.querySelector(".saveContact").addEventListener('submit', function (even
 
 //end contact form submission action
 
-
-
-
-
-
-
-
-
-//
-// $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-//                 event.preventDefault();
-//                 $(this).ekkoLightbox();
-//             });
-})
+});
