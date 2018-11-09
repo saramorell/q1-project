@@ -139,8 +139,8 @@ section.gallery{
 .images-wrap{
   display:grid;
   grid-template-columns: 15% auto;
-  padding-top:30vh;
-  padding-bottom: 10vh;
+  padding-top:15vh;
+  padding-bottom: 15vh;
 }
 
 .images-wrap h1 {
@@ -162,11 +162,11 @@ font-weight:700;
   grid-gap: .5em;
 }
 
-img {
+img.grid-item {
   display:block;
   width: 100%;
   object-fit: cover;
-  height: 250px;
+  height: 350px;
 }
 
 /* about section */
