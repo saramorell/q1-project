@@ -11,6 +11,11 @@ h1, h2, h3 {
   color: #4f7687;
 }
 
+img {
+  display:block;
+  width: 100%;
+}
+
 /* main landing page grid */
 
 .wrapper > div {
@@ -241,7 +246,7 @@ div.contact-wrapper h1{
   display: grid;
   grid-template-columns: 15% 30% auto;
   grid-template-rows: 50vh;
-  padding-top:30vh;
+  padding-top:15vh;
 }
 
 div.form-group.form-confirm {
