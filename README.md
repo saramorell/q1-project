@@ -14,6 +14,9 @@ https://trello.com/b/kgiMs9vJ/q1-project
 
 # style guide
 <img src="https://github.com/saramorell/q1-project/blob/master/q1-styleguide-01.png">
+
+<img src="https://github.com/saramorell/q1-project/blob/master/q1-styleguide-01.png">
+
       
 
 
